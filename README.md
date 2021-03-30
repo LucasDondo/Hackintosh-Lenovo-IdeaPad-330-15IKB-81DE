@@ -16,9 +16,9 @@ Now, a bit of positivity: I got most stuff to work and, for my use case, this is
 
 **HDD**: Seagate ST1000LM035-1RK1
 
-	**Version**: LCM2
+- **Version**: LCM2
 
-	**Serial**: WKP0ZZA9
+- **Serial**: WKP0ZZA9
 
 **Ethernet chipset**: Realtek Semiconductor Co., Ltd. RTL8111/8168/8411 PCI Express Gigabit Ethernet Controller
 
@@ -30,11 +30,11 @@ Now, a bit of positivity: I got most stuff to work and, for my use case, this is
 
 **Touchpad**:
 
-	**Vendor**: got from nano `/proc/bus/input/devices` is "Vendor=044e", so it is [ALPS](https://devicehunt.com/view/type/usb/vendor/044E).
+- **Vendor**: got from nano `/proc/bus/input/devices` is "Vendor=044e", so it is [ALPS](https://devicehunt.com/view/type/usb/vendor/044E).
 
-	**Type**: USB, I2C
+- **Type**: USB, I2C
 
-	**Model**: AUI1667:00 044E:121E
+- **Model**: AUI1667:00 044E:121E
 
 **Keyboard**: From the Linux command line instructions, it seemed to be the same as the touchpad (I2C), but AIDA64 told me it is **PS/2**, not I2C. That's why it works with VoodooPS2Controller.kext.
 
