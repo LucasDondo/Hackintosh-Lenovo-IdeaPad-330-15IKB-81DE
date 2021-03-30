@@ -50,7 +50,7 @@ Do not use 00001B59 as AAPL,ig-platform-id since with that not even keyboard or 
 
 To solve the pink screen on HDMI devices, set this ([the guide I followed](https://dortania.github.io/OpenCore-Post-Install/gpu-patching/intel-patching/connector.html)):
 
-![Pink screen on HDMI - Solution](Resources/"Pink screen on HDMI - Solution.png")
+![Pink screen on HDMI - Solution](<Resources/Pink screen on HDMI - Solution.png>)
 
 ## Networks
 
