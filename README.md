@@ -76,15 +76,25 @@ Since there is no way to make it work, we won't use SSDT-GPI0.aml (it's useless 
 
 I disabled SIP as said [here](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/post-issues.html#disabling-sip).
 
-To multiboot in the same drive with multiple OSs:
+## <a id="guide1">Guide: Multiboot in the same drive with multiple OSs</a>
 
-Note that this worked for me, that I had already installed Linux and Windows 10 in my machine. Linux boots into Grub Rescue, but I believe this is because of a error I committed during my first try installing macOS.
+> Note that this worked for me, that I had already installed Linux and Windows 10 in my machine. Linux boots into Grub Rescue, but I believe this is because of a error I committed during my first try installing macOS.
 
 1. [Install macOS](https://dortania.github.io/OpenCore-Install-Guide/).
-2. Mount your internal drive and USB's EFI partitions.
-3. [Set up LauncherOption](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html) in your USB (this has already be done for you in this EFI).
-4. From the internal drive, move everything to your desktop (even better if you back it up in a safer place, such as a server or external drive).
+2. Mount your internal drive and bootable USB drive's EFI partitions.
+3. [Set up LauncherOption](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html) in your USB drive (this has already be done for you in this EFI).
+4. From the internal drive's EFI, move everything to your desktop (even better if you back it up in a safer place, such as a server or external drive).
 5. Move everything from the USB to the drive's EFI.
 6. Disconnect the USB and reboot.
 7. Move back from your desktop the folder used to boot other OSs (for example *Microsoft* or *ubuntu*).
 8. You can now, happily, boot into other OSs as well as on your brand new macOS.
+
+## <a id="guide2">Guide: Update OpenCore</a>
+
+> What I suggest is to at least read [OpenCore's official guide on updating OpenCore](https://dortania.github.io/OpenCore-Post-Install/universal/update.html).
+
+1. Download this repository's latest release (or do it manually with the official guide linked above).
+  - Make your necessary changes, if needed.
+2. Copy the EFI folder downloaded to your [bootable USB drive](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)'s EFI.
+3. Reboot into your USB drive and test that everything works fine enough.
+4. Repeat the [previous guide](#guide1) from step number 4 (even if you are not multibooting. In that case you will just skip step number 7).
