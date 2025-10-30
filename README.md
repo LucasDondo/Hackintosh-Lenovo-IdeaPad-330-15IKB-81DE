@@ -66,9 +66,9 @@ Another issue with sleep is that it requires two keypresses to wake completely. 
 
 ## 🖱️ Trackpad
 
-There is no way to make it work since it is both I2C and ALPS. See [the issue I created in GitHub](https://github.com/VoodooI2C/VoodooI2C/issues/358#event-3638746641).
+There is no way to make it work since it is both I2C and ALPS. See [the issue I created to VoodooI2C](https://github.com/VoodooI2C/VoodooI2C/issues/358).
 
-Since there is no way to make it work, we won't use SSDT-GPI0.aml (it's useless in our case).
+Since there is no way to make it work, we won't use `SSDT-GPI0.aml` (it's useless in our case).
 
 **Edit**: see [here](https://github.com/VoodooI2C/VoodooI2C/issues/358#issuecomment-939154909) what someone suggested. It may work, but I can't tell first-hand.
 
