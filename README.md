@@ -2,7 +2,7 @@
 However, I strongly suggest using this EFI folder as a mere guide, and not as an _easy-peasy-and-already-made-with-a-lot-of-love_ installation medium. No one should rely on this files. What I do suggest is to follow the [official OpenCore guides](https://dortania.github.io/getting-started/), and maybe then use this EFI folder as a guide for troubleshooting, but you need to **understand what you are doing**.
 Everyone tells you to understand what you are doing when dealing with this kind of software, but many times we just go for it without thinking much. From my personal experience, there is no way to be successful in creating a hackintosh if you don't understand the values, files and problems you are dealing with.
 
-Now, a bit of positivity: I got most stuff to work and, for my use case, this is a quite reliable machine with the awesome mac operating system! It is a nice experience and you deserve it, so go for it! And, if you find a way to make this EFI even better, just [create and issue](https://github.com/LucasDondo/Hackintosh-Lenovo-IdeaPad-330-15IKB-81DE/issues/new/choose) or a [pull request](https://github.com/LucasDondo/Hackintosh-Lenovo-IdeaPad-330-15IKB-81DE/compare), whatever suits the best!
+Now, a bit of positivity: I got most stuff to work and, for my use case, this is a quite reliable machine with the awesome mac operating system! It is a nice experience and you deserve it, so go for it! And, if you find a way to make this EFI even better, just [create an issue](https://github.com/LucasDondo/Hackintosh-Lenovo-IdeaPad-330-15IKB-81DE/issues/new/choose) or [open a pull request](https://github.com/LucasDondo/Hackintosh-Lenovo-IdeaPad-330-15IKB-81DE/compare), whatever suits the best!
 
 ![Booyah!](Resources/Booyah!.gif)
 
