@@ -1,5 +1,5 @@
 # 😜 Everything (everything!? Well, no.) you need to know is right here!
-However, I strongly suggest using this EFI folder as a mere guide, and not as an _easy-peasy-and-already-made-with-a-lot-of-love_ installation medium. No one should rely on this files. What I do suggest is to follow the [official OpenCore guides](https://dortania.github.io/getting-started/), and maybe then use this EFI folder as a guide for troubleshooting, but you need to **understand what you are doing**.
+However, I strongly suggest using this EFI folder as a mere guide, and not as an _easy-peasy-and-already-made-with-a-lot-of-love_ installation medium. No one should rely on this files. What I do suggest is to follow the [official OpenCore guides](https://dortania.github.io/getting-started), and maybe then use this EFI folder as a guide for troubleshooting, but you need to **understand what you are doing**.
 Everyone tells you to understand what you are doing when dealing with this kind of software, but many times we just go for it without thinking much. From my personal experience, there is no way to be successful in creating a hackintosh if you don't understand the values, files and problems you are dealing with.
 
 Now, a bit of positivity: I got most stuff to work and, for my use case, this is a quite reliable machine with the awesome mac operating system! It is a nice experience and you deserve it, so go for it! And, if you find a way to make this EFI even better, just [create an issue](https://github.com/LucasDondo/Hackintosh-Lenovo-IdeaPad-330-15IKB-81DE/issues/new/choose) or [open a pull request](https://github.com/LucasDondo/Hackintosh-Lenovo-IdeaPad-330-15IKB-81DE/compare), whatever suits the best!
@@ -26,7 +26,7 @@ Now, a bit of positivity: I got most stuff to work and, for my use case, this is
 
 **Motherboard**: Lenovo LNVNB161216
 
-**Audio codec**: ALC3240, also known as ALC230, as mentioned [here](https://www.reddit.com/r/hackintosh/comments/hzjb44/codec_finder/).
+**Audio codec**: ALC3240, also known as ALC230, as mentioned [here](https://reddit.com/r/hackintosh/comments/hzjb44/codec_finder).
 
 **Touchpad**:
 
@@ -36,7 +36,7 @@ Now, a bit of positivity: I got most stuff to work and, for my use case, this is
 
 - **Model**: AUI1667:00 044E:121E
 
-**Keyboard**: From the Linux command line instructions, it seemed to be the same as the touchpad (I2C), but [AIDA64](https://www.aida64.com/) told me it is **PS/2**, not I2C. That's why it works with VoodooPS2Controller.kext.
+**Keyboard**: From the Linux command line instructions, it seemed to be the same as the touchpad (I2C), but [AIDA64](https://aida64.com) told me it is **PS/2**, not I2C. That's why it works with VoodooPS2Controller.kext.
 
 # ☹️ Problems, and solutions! 🙂
 
@@ -82,7 +82,7 @@ I disabled SIP as said [here](https://dortania.github.io/OpenCore-Install-Guide/
 
 > 🤷🏼‍♂️ Note that this worked for me, that I had already installed both Linux and Windows 10 in my machine. Linux boots into Grub Rescue, but I believe this is because of a error I made during my first time trying to install macOS.
 
-1. [Install macOS](https://dortania.github.io/OpenCore-Install-Guide/).
+1. [Install macOS](https://dortania.github.io/OpenCore-Install-Guide).
 2. Mount your internal drive and bootable USB drive's EFI partitions.
 3. [Set up LauncherOption](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html) in your USB drive (this has already be done for you in this EFI).
 4. From the internal drive's EFI, move everything to your desktop (even better if you back it up in a safer place, such as a server or external drive).
@@ -97,6 +97,6 @@ I disabled SIP as said [here](https://dortania.github.io/OpenCore-Install-Guide/
 
 1. Download this repository's latest release (or do it manually with the official guide linked above).
 2. Make your necessary changes, if needed.
-3. Copy the EFI folder downloaded to your [bootable USB drive](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)'s EFI.
+3. Copy the EFI folder downloaded to your [bootable USB drive](https://dortania.github.io/OpenCore-Install-Guide/installer-guide)'s EFI.
 4. Reboot into your USB drive and test that everything works fine enough.
 5. Repeat the [previous guide](#multibootingGuide) from step number 4 (even if you are not multibooting. In that case you will just skip step number 7).
