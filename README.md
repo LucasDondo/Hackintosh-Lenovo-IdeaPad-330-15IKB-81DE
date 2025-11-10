@@ -44,8 +44,6 @@ Now, a bit of positivity: I got most stuff to work and, for my use case, this is
 
 For DRM, we don't have support (check [this](https://dortania.github.io/OpenCore-Post-Install/universal/drm.html#fixing-drm)) to use with hardware, so for Netflix we need to use Google Chrome, which uses software-powered DRM.
 
-When rebooting or waking the laptop while connected to an HDMI screen, we need to re-plug the HDMI cable or turn the external monitor off and on again. If you happen to find a solution, please create a pull request.
-
 Do not use 00001B59 as AAPL,ig-platform-id since with that not even keyboard or mouse work.
 
 To solve the pink screen on HDMI devices, set this ([this](https://dortania.github.io/OpenCore-Post-Install/gpu-patching/intel-patching/connector.html) is the guide I followed):
