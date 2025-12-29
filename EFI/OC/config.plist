@@ -1162,7 +1162,7 @@
 				<key>run-efi-updater</key>
 				<string>No</string>
 				<key>boot-args</key>
-				<string>keepsyms=1 debug=0x100 swd_panic=1 darkwake=0</string>
+				<string>keepsyms=1 debug=0x100 swd_panic=1 darkwake=0 igfxonln=1</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
